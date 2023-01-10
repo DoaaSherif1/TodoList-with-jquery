@@ -1,0 +1,71 @@
+.header {
+    background-color: rgb(192, 200, 200);
+    padding: 30px 40px;
+    color: rgb(102, 24, 24);
+    text-align: center;
+    font-size: x-large;
+    }
+    .header:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+.addBtn {
+    padding: 10px;
+    width: 90px;
+    height: 40px;
+    background: #700808;
+    color: rgb(254, 254, 254);
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 1%;
+    }
+    .addBtn:hover {
+        background-color: rgb(99, 96, 96);
+        }
+    input {
+    margin: 0;
+    border: none;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    width: 500px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 25%;
+    }
+    [type=text],[type=button]
+    {
+        font-family:'Century Gothic';
+        font-size:x-large;
+        
+    }
+    .checked{
+        background: #888;
+        color: #fff;
+        text-decoration: line-through;
+    }
+    
+    tr {
+        cursor: pointer;
+        position: relative;
+        padding: 16px 8px 12px 40px;
+        background: #eee;
+        font-size: 33px;
+        transition: 0.2s;
+        }
+    tr:nth-child(odd) {
+        background: #e6caca;
+    }
+    tr:hover {
+        background: #ddd;
+    }
+    table {
+        width: 700px;
+        margin-left: 22%;
+    }
+        
